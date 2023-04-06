@@ -1,42 +1,153 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Mon cul</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-  </head>
-  <body>
-    <header>
-      <h1>Porte-folio d'un étudiant</h1>
-    </header>
-    <nav>
-      <ul>
-        <li><a href="#section1">Section 1</a></li>
-        <li><a href="#section2">Section 2</a></li>
-        <li><a href="#section3">Section 3</a></li>
-        <li><a href="#section4">Section 4</a></li>
-      </ul>
-    </nav>
-    <main>
-      <section id="section1">
-        <h2>Section 1</h2>
-        <p>Contenu de la section 1</p>
-      </section>
-      <section id="section2">
-        <h2>Section 2</h2>
-        <p>Contenu de la section 2</p>
-      </section>
-      <section id="section3">
-        <h2>Section 3</h2>
-        <p>Contenu de la section 3</p>
-      </section>
-      <section id="section4">
-        <h2>Section 4</h2>
-        <p>Contenu de la section 4</p>
-      </section>
-    </main>
-    <footer>
-      <p>Copyright © 2023</p>
-    </footer>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Équipement de rugby</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg barnav couleur">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" height="40px" alt="...">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produits</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Ecrire..." aria-label="Search">
+          <button class="btn red" type="submit">Recherche</button>
+        </form>
+        <button type="button" class="btn shop btn-outline-danger"><img src="img/shop.png" height="25px" alt="..."></button>
+      </div>
+    </div>
+  </nav>
+          <div class="titre">
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner imageCaroussel">
+                  <div class="carousel-item active">
+                    <img src="img/stade.png" width="100%" height="450px" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/stade2.jpg" width="100%" height="450px" alt="...">
+                    <div class="carousel-caption d-none d-md-block textCarousel">
+                      <h5>200 000 spectateurs</h5>
+                      <p>Une nouveauté exclusive dans le sport professionel</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/stade3.png" width="100%" height="450px" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <a href="..." type="button" class="btn btn-outline clique">TENTE TA CHANCE</a>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    <div class="container centre">
+        <div class="row justify-content-around">
+            <div class="card" style="width: 18rem;">
+                <img src="img/casque/casquev2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Casque</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="casque.html" class="btn btn-primary red2">Acheter</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/dent/dent.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary red2">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/maillot/maillot.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary red2">Go somewhere</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/ballon/ballon.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary red2">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <section class="about">
+            <div class="container">
+              <img src="img/logo.png" alt="Logo de la boutique">
+              <p>Nous sommes une boutique spécialisée dans la vente d'équipement de rugby à l'effigie du XV de France.</p>
+              <a href="#" class="cta">En savoir plus</a>
+            </div>
+          </section>
+<div class="contact">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Adresse mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Nom & Prénom</label>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">S'inscire</label>
+      </div>
+      <button class="gold btn" type="submit">Je m'inscris</button>
+  </form>
+</div>
+<div class="copyright">
+  <a href="https://twitter.com/PoilsDurs" type="button" class="btn btn-outline"><img src="img/réseaux/twitter.png" height="25px" alt="..."></a>
+  <a href="https://www.instagram.com/gregoire_wsr" type="button" class="btn btn-outline"><img src="img/réseaux/insta.png" height="25px" alt="..."></a>
+  <a href="https://www.linkedin.com/in/grégoire-wieser-187266252" type="button" class="btn btn-outline"><img src="img/réseaux/linkdin.png" height="25px" alt="..."></a>
+  <p>Copyright © 2022 Grégoire Wieser - Tous droits réservés</p>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
 </html>

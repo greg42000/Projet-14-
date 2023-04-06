@@ -3,6 +3,11 @@ html, body{
     padding: 0;
     background-color: #FEFEFC;
 }
+.titre{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
 .barnav{
     position: fixed;
     z-index: 3;
@@ -14,21 +19,11 @@ html, body{
 .couleur{
     background-color: #FEFEFC !important;
 }
-.textCarousel p{
-  color: green;
-}
-.clique{
+.logoBarNav{
+    display: flex;
     justify-content: center;
-    margin-bottom: 4.2%;
-    width: 35%;
-    border-color: #EEC66C;
-    font-weight: bold;
-    text-decoration: #EEC66C;
-    color: #FEFEFC;
-}
-.clique:hover{
-    background-color: #EEC66C;
-    border-color: black;
+    margin-left: 100%;
+    position: absolute;
 }
 .red{
     border-color: #850606;
@@ -36,57 +31,65 @@ html, body{
 .red:hover{
     background-color: #850606;
 }
-.red2{
-  background-color: #886262;
-  border-color: #886262;
+.textB{
+    width: 175%;
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 10%;
 }
-.red2:hover{
-  background-color: #850606;
-  border-color: #850606;
+.achat{
+    border-color: #850606;
+    margin-top: 10%;
+}
+.label{
+    margin-top: 5%;
+}
+.textD{
+    width: 30%;
+    border: 1px solid #c2c2c2;
+    font-family: Exo-Regular;
+    box-sizing: border-box;
+    text-align: center;
+}
+.textC{
+    margin-top: 5%;
+}
+.textE{
+    size: 50px;
+}
+.plusMoins{
+    color: #e21f20;
+    text-align: center;
+    padding: 0 5px 0.5rem 5px;
+    font-size: 1rem;
+    width: 3rem;
+}
+.centre{
+    display: flex;
+    justify-content: center;
 }
 .shop{
     display: flex;
     justify-content: center;
     margin-left: 1%;
 }
-.centre{
+.description{
     display: flex;
     justify-content: center;
+    margin-top: 10%;
 }
-.titre{
-    margin-top: 4.5%;
-    margin-bottom: 5%;
+h1{
+    font-size: 115%;
+    font-style: large;
+    font-weight: bolder;
+    width: 180%;
 }
-.imageCaroussel{
-    height: auto;
-    width: 100%;
-}
-.about{
-    justify-items: center;
-    text-align: center;
-}
-.contact{
-    margin-bottom: 2%;
-    margin-top: 2%;
-    justify-content: center;
-    display: flex;
+.detailleTitre{
     padding-top: 4%;
     border-top: 1px solid black;
-    margin-left: 5%;
-    margin-right: 5%;
 }
-.gold{
-    border-color: #EEC66C;
-    justify-content: center;
-    margin-left: 22%;
-}
-.gold:hover{
-    background-color: #EEC66C;
-    border-color: black;
-}
-.form-check-input:checked {
-    background-color: #EEC66C;
-    border-color: black;
+.detailleTexte p{
+    margin: 0 !important;
 }
 .copyright{
     background-color: #201F1F;
@@ -94,6 +97,7 @@ html, body{
     padding-bottom: 1.5em;
     justify-content: center;
     display: flex;
+    margin-top: 2%;
 }
 .copyright p{
     padding-top: 1.5em;
