@@ -94,6 +94,9 @@ html, body{
     justify-content: center;
     margin-top: 10%;
 }
+.gout1{
+    border-color: #bf3030;
+}
 h1{
     font-size: 115%;
     font-style: large;
@@ -106,6 +109,18 @@ h1{
 }
 .detailleTexte p{
     margin: 0 !important;
+}
+.fraise{
+    color: red;
+}
+.menthe{
+    color: green;
+}
+.myrtilles{
+    color: blue;
+}
+.citron{
+    color: #DAD717;
 }
 .copyright{
     background-color: #201F1F;
